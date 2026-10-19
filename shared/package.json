@@ -1,0 +1,13 @@
+{
+  "name": "@rms/shared",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "test": "node --test dist/"
+  },
+  "devDependencies": { "typescript": "^5.7.3", "@types/node": "^22.10.7" }
+}

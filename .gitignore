@@ -1,0 +1,23 @@
+# dependencies and build output
+node_modules/
+.next/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# secrets: never commit these (see the .env.example files for what is needed)
+.env
+.env.*
+!.env.example
+*firebase-adminsdk*.json
+*.pem
+*.key
+
+# local data and uploads
+.mongo-data/
+backend/storage/
+storage/
+*.log
+.DS_Store
